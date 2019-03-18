@@ -55,11 +55,13 @@ table {
 
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0.4rem;
   font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  height: 50rem;
+  width: 50rem;
+  
 }

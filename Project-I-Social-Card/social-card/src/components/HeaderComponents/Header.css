@@ -1,28 +1,43 @@
 /* All styles for your header Components live here */
+
+
+
 .header-container{
     /* border: 1px solid red; */
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    grid-template-areas: 
-    "logo cardName cardName"
-    "logo headerPTag headerPTag"
-    ". headerPTag headerPTag";
-
+    display: flex;
+    margin-bottom: 1rem;
 }
 
 
 .logo{
-    grid-area: logo;
+    margin: 0.2rem 0.4rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+   
+
+}
+
+.txt-container{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .cardName{
     display: flex;
-    grid-area: cardName;
-    font-size: 2rem;
+    
+}
+.cardName h1{
+    font-weight: 700;
+    margin: 1rem;
 }
 
+.cardName p{
+    color: gray;
+    margin: 1rem;
+    
+}
 .headerPTag{
-    grid-area: headerPTag;
+    margin: 0 1rem;
+
 }
