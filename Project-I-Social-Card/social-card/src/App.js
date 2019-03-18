@@ -24,10 +24,14 @@ const App = () => {
     //     </strong>
     //   </p>
     // </div>,
-    <div className="container">
-      <HeaderContainer />
-      <CardContainer />
-    </div>
+    
+      <div className="container">
+        
+          <HeaderContainer />
+          <CardContainer />
+        
+      </div>
+    
 
   );
 };
