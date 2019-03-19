@@ -1,0 +1,63 @@
+.Action-btn {
+    border: 1px solid orange;
+    grid-area: ActionButton;
+    display: grid;
+    
+
+  }
+  .cbtn {
+    background-color: brown;
+  }
+  
+  .nbtn {
+    background-color: #777;
+  }
+  
+  .numPad {
+    height: 100%;
+    border: 1px solid dodgerblue;
+    grid-area: numPad;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "c c c"
+      "b7 b8 b9"
+      "b4 b5 b6"
+      "b1 b2 b3"
+      "b0 b0 b0";
+  }
+  
+  .btn-z {
+    grid-area: b0;
+  }
+  .btn-1 {
+    grid-area: b1;
+  }
+  .btn-2 {
+    grid-area: b2;
+  }
+  .btn-3 {
+    grid-area: b3;
+  }
+  .btn-4 {
+    grid-area: b4;
+  }
+  .btn-5 {
+    grid-area: b5;
+  }
+  .btn-6 {
+    grid-area: b6;
+  }
+  .btn-7 {
+    grid-area: b7;
+  }
+  .btn-8 {
+    grid-area: b8;
+  }
+  .btn-9 {
+    grid-area: b9;
+  }
+  .btn-clear {
+    grid-area: c;
+  }

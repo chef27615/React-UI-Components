@@ -1,0 +1,12 @@
+
+.calDisplay {
+    border: 1px solid green;
+    grid-area: display;
+    background-color: #333;
+    color: white;
+    font-size: 5rem;
+    padding-top: 1.5rem;
+    padding-right: 0.4rem;
+    text-align: end;
+  }
+  
