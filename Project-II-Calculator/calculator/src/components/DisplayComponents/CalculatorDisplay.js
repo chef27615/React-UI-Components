@@ -1,11 +1,9 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay =()=>{
+const CalculatorDisplay =(props)=>{
     return(
-    <div className="calDisplay">
-      <span className="screen-readout">0</span>
-    </div>
+    <span className={props.ah}>{props.disment}</span>
     );
 }
 

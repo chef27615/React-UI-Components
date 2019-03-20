@@ -1,24 +1,15 @@
 
-.App {
-    font-family: sans-serif;
-    text-align: center;
-    border: 1px solid hotpink;
-    height: 100%;
-    width: 70%;
-    display: grid;
-    grid-template-columns: 350px, 1fr;
-    grid-template-rows: 100px 2fr;
-    grid-template-areas:
-      "display display"
-      "numPad ActionButton";
-  }
 
   .fields{
     height: 100%;
     display: grid;
-    grid-template-columns: 2fr, 1fr 1fr;
-    grid-template-rows: 100px 2fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas:
-      "display display display"
-      "numPad numPad ActionButton";
+      "display display display display"
+      "btn-clear btn-clear btn-clear s1"
+      "btn-7 btn-8 btn-9 s2"
+      "btn-4 btn-5 btn-6 s3"
+      "btn-1 btn-2 btn-3 s4"
+      "btn-z btn-z btn-z s5";
   }

@@ -1,16 +1,13 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = ()=>{
+const ActionButton = (props)=>{
     return(
-        <div className="Action-btn">
-            <button className="cbtn">&divide;</button>
-            <button className="cbtn">x</button>
-            <button className="cbtn">-</button>
-            <button className="cbtn">+</button>
-            <button className="cbtn">=</button>
-        </div>
+        
+            <button className = {props.btnStyle}>{props.str}</button>
+        
     );
 }
 
 export default ActionButton;
+
