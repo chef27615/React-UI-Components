@@ -8,10 +8,11 @@
     margin-bottom: 1rem;
 }
 
-
+.imgDiv{
+    /* border: 1px solid green; */
+}
 .logo{
-    margin: 0.2rem 0.4rem;
-    width: 10rem;
+    width: 5rem;
     margin-bottom: 1rem;
    
 
@@ -20,24 +21,25 @@
 .txt-container{
     display: flex;
     flex-direction: column;
-    
+    /* border: 1px solid gray; */
 }
 
 .cardName{
     display: flex;
+    /* border: 1px solid orange; */
     
 }
 .cardName h1{
     font-weight: 700;
-    margin: 1rem;
+    margin:  0.5rem 1rem;
 }
 
 .cardName p{
     color: gray;
-    margin: 1rem;
+    margin: 0.5rem;
     
 }
 .headerPTag{
-    margin: 0 1rem;
+    margin: 0.5rem 1rem;
 
 }

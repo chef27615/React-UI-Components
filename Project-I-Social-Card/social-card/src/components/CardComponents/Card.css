@@ -11,7 +11,7 @@ a{
 .card-container{
     display: flex;
     flex-direction:column;
-    width: 100%;
+    width: 96%;
     height: 80%; 
     background-repeat: no-repeat;
     /* border: 1px solid red; */
