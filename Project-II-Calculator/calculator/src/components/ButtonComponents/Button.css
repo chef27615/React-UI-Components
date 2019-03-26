@@ -1,14 +1,9 @@
 
-  .cbtn {
-    background-color: brown;
-  }
+  
   
   .nbtn {
     background-color: #777;
   }
-  
-  
-  
   .btn-z {
     grid-area: btn-z;
   }
@@ -41,4 +36,19 @@
   }
   .btn-clear {
     grid-area: btn-clear;
+  }
+
+
+
+  .functionKeyContainer{
+    grid-area: fn;
+    display: grid;
+    border: 1px solid red;
+  }
+
+  .fnKeys{
+    background-color: orange;
+    font-size: 20px;
+    color: #333;
+    font-weight: 900;
   }

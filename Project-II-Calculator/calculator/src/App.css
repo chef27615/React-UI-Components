@@ -7,9 +7,9 @@
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas:
       "display display display display"
-      "btn-clear btn-clear btn-clear s1"
-      "btn-7 btn-8 btn-9 s2"
-      "btn-4 btn-5 btn-6 s3"
-      "btn-1 btn-2 btn-3 s4"
-      "btn-z btn-z btn-z s5";
+      "btn-clear btn-clear btn-clear fn"
+      "btn-7 btn-8 btn-9 fn"
+      "btn-4 btn-5 btn-6 fn"
+      "btn-1 btn-2 btn-3 fn"
+      "btn-z btn-z btn-z fn";
   }

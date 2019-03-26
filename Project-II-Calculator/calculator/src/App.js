@@ -4,6 +4,15 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
+const funcKeys = [
+  { name: "plus", value: "+" },
+  { name: "sub", value: "-" },
+  { name: "mult", value: "x" },
+  { name: "dive", value: "➗" },
+  { name: "cal", value: "enter" }
+];
+
+
 const App = () => {
   return (
     <div className="fields">
@@ -33,11 +42,11 @@ const App = () => {
       <NumberButton newStyle='nbtn btn-9' inner='9'/>
       <NumberButton newStyle='nbtn btn-clear' inner='clear'/>
 
-      <ActionButton btnStyle ='cbtn s1' str ='&divide;'/>
-      <ActionButton btnStyle ='cbtn s2' str ='x'/>
-      <ActionButton btnStyle ='cbtn s3' str ='-'/>
-      <ActionButton btnStyle ='cbtn s4' str ='+'/>
-      <ActionButton btnStyle ='cbtn s5' str ='='/>
+      <div className="functionKeyContainer">
+        {funcKeys.map( (value, name)=>(<ActionButton key={name} desc={value} />)  )}
+
+      </div>
+      
 
     </div>
   );

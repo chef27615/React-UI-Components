@@ -4,7 +4,9 @@ import './Button.css';
 const ActionButton = (props)=>{
     return(
         
-            <button className = {props.btnStyle}>{props.str}</button>
+            <button className="fnKeys">{props.desc.value}</button>
+        
+            
         
     );
 }
