@@ -1,0 +1,15 @@
+
+
+  .fields{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "display display display display"
+      "btn-clear btn-clear btn-clear fn"
+      "btn-7 btn-8 btn-9 fn"
+      "btn-4 btn-5 btn-6 fn"
+      "btn-1 btn-2 btn-3 fn"
+      "btn-z btn-z btn-z fn";
+  }

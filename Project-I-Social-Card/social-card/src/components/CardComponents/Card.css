@@ -1,1 +1,67 @@
 /* All styles for your Card Components live here */
+
+
+a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+
+.card-container{
+    display: flex;
+    flex-direction:column;
+    width: 96%;
+    height: 80%; 
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+
+.bgImg{
+    background-image: url(https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png);
+    background-repeat: none;
+    background-position: center;
+    align-self: flex-end;
+    height: 21rem;
+    width: 87%;
+
+}
+
+.cardContent{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 1rem;
+    
+}
+
+.cardContent .space{
+    /* border: 1px solid red; */
+    width: 10%;
+    height: auto;
+}
+
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+
+h3{
+    font-weight: 700;
+    margin: 0.4rem 0;
+    color: black;
+}
+
+.mid{
+    margin: 0.5rem 0;
+    color: black;
+}
+
+.bottom{
+    color: gray;
+    
+}
+
+
+

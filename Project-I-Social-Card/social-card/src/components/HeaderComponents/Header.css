@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+
+
+.header-container{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.imgDiv{
+    /* border: 1px solid green; */
+}
+.logo{
+    width: 5rem;
+    margin-bottom: 1rem;
+   
+
+}
+
+.txt-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid gray; */
+}
+
+.cardName{
+    display: flex;
+    /* border: 1px solid orange; */
+    
+}
+.cardName h1{
+    font-weight: 700;
+    margin:  0.5rem 1rem;
+}
+
+.cardName p{
+    color: gray;
+    margin: 0.5rem;
+    
+}
+.headerPTag{
+    margin: 0.5rem 1rem;
+
+}
